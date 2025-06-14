@@ -304,7 +304,7 @@ function ManagerProduct() {
                         rules={[{ required: true, message: 'Vui lòng nhập mô tả!' }]}
                     >
                         <Editor
-                            apiKey="hfm046cu8943idr5fja0r5l2vzk9l8vkj5cp3hx2ka26l84x"
+                            apiKey="gstktgsi2wbg85jl6tetux8tu50mtr2p6ji847rgq59xl959"
                             init={{
                                 plugins:
                                     'anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount',
