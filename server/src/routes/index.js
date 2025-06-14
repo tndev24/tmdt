@@ -78,7 +78,7 @@ function routes(app) {
             return res.status(400).json({ message: 'No file uploaded' });
         }
         const images = file.map((file) => {
-            return `http://localhost:3000/uploads/products/${file.filename}`;
+            return `http://3.231.216.193:3000/uploads/products/${file.filename}`;
         });
         res.json({
             message: 'Uploaded successfully',
