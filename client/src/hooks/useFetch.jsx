@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback } from 'react';
 import axios from 'axios';
 
 const request = axios.create({
-    baseURL: 'http://localhost:3000',
+    baseURL: 'http://3.231.216.193:3000',
     withCredentials: true,
 });
 
